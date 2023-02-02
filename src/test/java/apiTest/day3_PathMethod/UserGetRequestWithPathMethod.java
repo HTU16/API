@@ -1,5 +1,4 @@
 package apiTest.day3_PathMethod;
-
 import static io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -42,6 +41,7 @@ public class UserGetRequestWithPathMethod {
     }
 
       /*
+
     TASK
     Given accept type json
     And query  parameter value pagesize 50
@@ -97,6 +97,7 @@ public class UserGetRequestWithPathMethod {
     And content type should be application/json; charset=utf-8
     And the first book isbn should be 9781449325862
     And the first book publisher should be O'Reilly Media
+
      */
 
     @Test
